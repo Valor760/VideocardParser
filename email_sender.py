@@ -7,7 +7,7 @@ def send_mail(url):
     server.starttls()
     server.ehlo()
 
-    server.login('valorcool@gmail.com', 'neibkxwoweivntri')
+    server.login('valorcool@gmail.com', INSERT_CODE_HERE)
 
     subject = 'Videocard price!'
     body = 'The price is lower than 500 Eur ' + url
